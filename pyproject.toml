@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "courage"
+version = "0.1.0"
+description = "main program for observation device"
+authors = ["rayhank"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.5.1"
+opencv-python = "^4.10.0.84"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
